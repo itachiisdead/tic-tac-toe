@@ -28,7 +28,7 @@ class HumanPlayer(Player):
                 print('Invalid square. Try again.')
         return val
 
-
+#a computer player that playes from random values
 class Random_Computer_Player(Player):
     def __init__(self, letter):
         super().__init__(letter)
@@ -37,7 +37,7 @@ class Random_Computer_Player(Player):
         square = random.choice(game.available_moves())
         return square
 
-#create a smartcomputer t
+#new (create a smartcomputer) 
 class Smart_Computer_Player(Player):
     def __init__(self, letter):
         super().__init__(letter)
