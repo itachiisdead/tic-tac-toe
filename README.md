@@ -7,5 +7,5 @@ This repository contains a simple implementation of the tic-tac-toe game using P
 The repository consists of the following files:
 
 - `game.py`: Contains the main logic for the tic-tac-toe game.
-- `player.py`: Defines the Player class for representing the players in the game.
+- `player.py`: Defines the Player class for representing the players of the game.
 
